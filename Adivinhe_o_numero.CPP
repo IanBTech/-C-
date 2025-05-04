@@ -65,6 +65,7 @@ int main() {
   cout <<"Fim de jogo" <<endl;
   if(nao_acertou){
    cout <<"Voce perdeu! Tente novamente!" <<endl;
+   cout <<"O numero secreto era " << NUMERO_SECRETO << endl;
   }
   else{
    cout <<"Voce acertou o numero secreto em " << tentativas << " tentativas" <<endl;
