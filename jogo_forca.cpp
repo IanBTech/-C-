@@ -77,7 +77,7 @@ void chuta(){
 
 void le_arquivo(){
     ifstream arquivo;
-    arquivo.open("palavra.txt");
+    arquivo.open("palavras.txt");
 
     int quantidade_palavras;
     arquivo >> quantidade_palavras;
